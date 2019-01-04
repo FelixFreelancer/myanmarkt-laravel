@@ -1,0 +1,410 @@
+.ads-search-box {
+    background-color: #e7e6e6;
+    padding: 17px;
+}
+
+#search_time_order {
+    background-color: lightgoldenrodyellow;
+}
+.padding-left-4 {
+    padding-left: 4px;
+}
+.search-price-usd {
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.border-radius {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.search-text {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.full-width {
+    width: 100%;
+    margin-bottom: 14px;
+}
+
+.search-price-value {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-price-value input {
+    width: 40%;
+}
+
+.input-spacing {
+    padding: 0 5px;
+}
+
+.border-style {
+    border: 1px solid black;
+}
+.font-size-14 {
+    font-size: 14px;
+}
+.search-button {
+    background-color: #3490dc;
+    color: white;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    outline: none !important;
+    cursor: pointer;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.ads-google-ads {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.ads-left-margin-top, .ads-section-right {
+    margin-top: 30px;
+}
+
+.ads-featured-content {
+    display: flex;
+    margin: 0 -15px 12px;
+}
+
+.ads-featured-title {
+    margin-bottom: 6px;
+    font-size: 20px;
+    margin-top: -5px;
+}
+
+.ads-featured-column-one {
+    margin: 0 15px;
+    border: 1px solid black;
+    width: 23%;
+    position:relative;
+    /*max-height: 331px;*/
+    /*min-height: 331px;*/
+}
+
+.ads-list-column-one {
+    /*border: 1px solid black;*/
+    /*border-style: solid none;*/
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ads-list-column-one.ads-coming-soon {
+    width: 70%;
+}
+
+.ads-list-google-ads {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 23%;
+    margin-left: 10px;
+    border: 1px solid black;
+    height: 190px;
+}
+
+.ads-card-footer {
+    display: flex;
+    position: relative;
+}
+
+.card-footer-logo {
+    position: absolute;
+    right: 0;
+    /* top: 0; */
+    bottom: 0;
+    color: yellow;
+    margin: 0 10px 10px;
+}
+
+.ads-featured-one {
+    padding-bottom: 9px;
+    /*margin-bottom: 9px;*/
+    /*border-bottom: 1px solid #EEE;*/
+    position: relative;
+    display: block;
+    text-decoration: none !important;
+    outline: none !important;
+    color: inherit;
+}
+
+.ads-list-one {
+    padding: 9px 0;
+    position: relative;
+    display: flex;
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+.ads-list-column-one:last-child .ads-list-one {
+    border-bottom: 1px solid black;
+}
+
+.search-sub-category option:first-child {
+    display: none;
+}
+
+.ads-list-container {
+    width: 70%;
+}
+
+.ads-list-b-card--el-view {
+    width: 290px;
+    cursor: pointer;
+    font-size: 11px;
+    height:165px;
+    background-size:cover;
+    background-position:center;
+}
+
+.ads-list-b-card--el-details {
+    position: relative;
+    padding: 10px;
+    width: 100%;
+}
+
+.ads-list-b-card--el-agency-info {
+    position: absolute;
+    padding: 0 10px;
+    right: 0;
+    bottom: 0;
+    line-height: 0;
+}
+
+.span-heart {
+    position: absolute;
+    right: -10px;
+    color: #000;
+    top: 0;
+}
+
+.span-heart i {
+    font-size: 20px;
+}
+
+.b-card--el-header {
+    /*position: absolute;*/
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid black
+}
+.ads-list-one .b-card--el-header {
+    border: 1px solid black
+
+}
+.b-card--el-header a {
+    /*float: left;*/
+    display: block;
+    position: relative;
+}
+
+.b-card--el-view {
+    cursor: pointer;
+    font-size: 11px;
+    width: 100%;
+    height: 150px;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.b-card-mod-h.vehicle .b-card--el-featured-label {
+    background-color: #479E6D;
+}
+.ads-list-one .b-card--el-featured-label {
+    top: 0;
+    left: 0;
+}
+.b-card--el-featured-label {
+    font-size: 10px;
+    letter-spacing: 0.6px;
+    color: #FFF;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    padding: 1px 3px;
+    text-transform: uppercase;
+    z-index: 1;
+    background-color: #479E6D;
+}
+
+.b-card--el-details {
+    /*padding-right: 10px;*/
+    position: relative;
+    padding: 5px 20px 36px 6px;
+    /*min-height: 170px;*/
+    /*max-height: 170px;*/
+}
+
+.featured-ads-coming-soon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 224px;
+    min-height: 224px;
+}
+
+.ads-regular-sold.b-card--el-featured-label {
+    background-color: red;
+}
+.ads-regular.b-card--el-featured-label {
+    display: none;
+}
+.ads-regular-sold.b-card--el-description {
+    color: #cccccc;
+}
+
+.ads-list-one.featured-ads-coming-soon {
+    max-height: 165px;
+    min-height: 165px;
+}
+
+.ads-list-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.b-ad-excerpt-header {
+    /*display: flex;*/
+    width: 100%;
+    color: red;
+    font-size: 12px;
+    position: relative;
+
+}
+
+.b-ad-excerpt {
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    /*font-size: 13px;*/
+    margin-bottom: 0;
+}
+
+.b-card--el-description {
+    word-wrap: break-word;
+    color: blue;
+    margin-top: 3px;
+    font-size: 16px;
+    margin-bottom: 0;
+    line-height: 100%;
+}
+
+.b-card--el-brief-details {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #6A6A6A;
+    line-height: 14px;
+}
+.ads-regular-sold.b-card--el-brief-details {
+    color: #cccccc;
+}
+i.fas.fas.fa-bath {
+    margin-left: 10px;
+}
+i.fas.fa-bed {
+    margin-left: 10px;
+}
+.b-card--el-vehicle-price {
+    color: black;
+    text-align: left;
+    font-size: 16px;
+    line-height: 13px;
+    padding: 3px 3.5px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    margin: 0 0 2.5px 2.5px;
+    border: 1px solid gray;
+}
+
+.promoted-label {
+    background-color: #3490dc;
+}
+
+.b-card--el-vehicle-price span {
+    font-size: 8px;
+    color: black;
+    line-height: 12px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.ads-regular-sold.b-card--el-vehicle-price {
+    color: #cccccc;
+}
+
+.ads-regular-sold.b-card--el-vehicle-price span {
+    color: #cccccc;
+}
+
+.b-card--el-agency {
+    /*width: 50%;*/
+    /*text-align: right;*/
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 0 10px 5px;
+    line-height: 0;
+
+}
+
+.b-card--el-agency-logo {
+    width: 54px;
+    height: 54px;
+    display: block;
+    margin-left: auto;
+    margin-bottom: 5px;
+    border: 1px solid #eee;
+}
+
+.b-card--el-agency-time {
+
+    color: #999;
+    margin-bottom: 0;
+    line-height: normal;
+    display: inline;
+}
+
+.b-card--el-agency-title {
+    margin-bottom: 0;
+}
+
+.b-card--el-agency-info {
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: flex-end;*/
+    font-size: 10px;
+    text-align: right;
+}
+
+.b-card--el-agency-title {
+    color: #999;
+}
+
+.b-card--el-agency-info a:hover {
+    text-decoration: none;
+    color: #337ab7;
+
+}
+.b-card--el-brand:hover {
+    text-decoration: none;
+}
+
+.ads-list {
+    /*margin: 0 -15px;*/
+}

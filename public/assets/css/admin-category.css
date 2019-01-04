@@ -1,0 +1,45 @@
+.add-field-section {
+    /*height: 300px;*/
+    border: 2px solid blue;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    display: flex;
+
+}
+.modal-body > .row {
+    margin-bottom: 20px;
+}
+.label-option-field {
+    margin-top: 20px !important;
+    margin-left: 40px !important;
+    display: none;
+}
+.option-field-section {
+    width: 70%;
+    margin-left: 50px;
+}
+.option-field-one {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.option-field-one .fa-close {
+    font-size: 25px;
+    color: red;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.added-field-section {
+    width: 90%;
+}
+.field-style {
+    margin: 0 10px;
+}
+.category-field-list-li {
+    display: flex;
+    border: 1px solid;
+    margin: 10px 0;
+    padding: 10px 0;
+}

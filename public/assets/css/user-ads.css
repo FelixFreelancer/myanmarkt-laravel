@@ -1,0 +1,175 @@
+.user-ads-section {
+    margin-top: 20px;
+}
+
+.user-ads-info {
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-ads-one {
+    padding-bottom: 9px;
+    margin-bottom: 9px;
+    border-bottom: 1px solid #EEE;
+
+    position: relative;
+    display: block;
+    text-decoration: none !important;
+    outline: none !important;
+    color: inherit;
+}
+
+.b-card--el-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.b-card--el-header a {
+    float: left;
+    display: block;
+}
+
+.b-card--el-view {
+    cursor: pointer;
+    font-size: 11px;
+    width: 100%;
+}
+
+.b-card-mod-h.vehicle .b-card--el-featured-label {
+    background-color: #479E6D;
+}
+
+.b-card--el-featured-label {
+    font-size: 8px;
+    letter-spacing: 0.6px;
+    color: #FFF;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 3px 6px;
+    text-transform: uppercase;
+    z-index: 1;
+    background-color: #479E6D;
+}
+
+.b-card--el-details {
+    padding-right: 10px;
+    position: relative;
+}
+
+.b-ad-excerpt {
+    color: #479E6D;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.b-card--el-description {
+    word-wrap: break-word;
+    color: #393635;
+    margin-top: 3px;
+    font-size: 17px;
+    margin-bottom: 0;
+    line-height: 100%;
+}
+
+.b-card--el-brief-details {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #6A6A6A;
+    line-height: 14px;
+}
+
+.b-card--el-vehicle-price {
+    margin-top: 10px;
+    color: #d53163 !important;
+    text-align: left;
+    font-size: 20px;
+    line-height: 22px;
+    display: inline-block;
+    position: static;
+}
+
+.b-card--el-vehicle-price span {
+    font-size: 9px;
+    color: #d53163;
+    line-height: 12px;
+    margin-top: 10px;
+}
+
+.b-card--el-agency {
+    width: 50%;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    line-height: 0;
+}
+
+.b-card--el-agency-logo {
+    width: 54px;
+    height: 54px;
+    display: block;
+    margin-left: auto;
+    margin-bottom: 5px;
+    border: 1px solid #eee;
+}
+
+.b-card--el-agency-time {
+
+    color: #999;
+    margin-bottom: 0;
+    line-height: normal;
+    display: inline;
+}
+
+.b-card--el-agency-title {
+    margin-bottom: 0;
+}
+
+.b-card--el-agency-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.b-card--el-agency-title {
+    color: #999;
+}
+.b-card--el-agency-info a:hover {
+    text-decoration: none;
+    color: #337ab7;
+
+}
+.b-card--el-brand:hover {
+    text-decoration: none;
+}
+/*responsive*/
+@media only screen and (min-width: 768px) {
+    .b-card--el-header {
+        width: 180px;
+    }
+
+    .b-card--el-details {
+        margin-left: 190px;
+        min-height: 135px;
+    }
+
+    .b-card--el-agency {
+        padding-bottom: 5px;
+        padding-left: 6px;
+    }
+
+    .b-card--el-agency-time, .b-card--el-agency-title {
+        font-size: 11px;
+    }
+
+    .b-card--el-agency-title {
+        font-size: 11px;
+    }
+}
